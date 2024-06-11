@@ -1,0 +1,19 @@
+// partial for base styles and resets such as global variables (body, *, p, etc.)
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+    background-color: $Lightgray;
+    color: $White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

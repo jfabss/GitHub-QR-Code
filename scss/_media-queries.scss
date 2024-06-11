@@ -1,0 +1,46 @@
+// base Styles
+@media (min-width: 400px) {
+
+    body {
+
+        height: 100vh;
+
+    }
+}
+
+// components
+@media (max-width: 400px) {
+
+    .container {
+
+        margin-top: 10%;
+    }
+
+}
+
+// landscape mode queries
+@media (orientation: landscape) and (max-width: 900px) {
+
+    // components
+    .container {
+
+        margin-top: 2%;
+        max-width: 600px;
+    }
+
+    .card {
+
+        display: flex;
+    }
+
+    .text h2 {
+
+        padding-bottom: 15%;
+    }
+
+    .qrcode-img-class {
+
+        width: 50%;
+    }
+
+}
